@@ -79,7 +79,7 @@ resource "aws_instance" "jenkins_server" {
   associate_public_ip_address = true
   
   root_block_device {
-    volume_size = 20        # Size in GB
+    volume_size = 12        # Size in GB
     # volume_type = "gp3"     # or "gp2" (General Purpose SSD)
   }
 
