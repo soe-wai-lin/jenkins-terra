@@ -7,6 +7,9 @@ set -e  # Exit on any error
 # Update package list
 sudo apt-get update -y
 
+# install gh
+sudo apt install gh -y
+
 sudo touch /test
 
 # Install required dependencies
